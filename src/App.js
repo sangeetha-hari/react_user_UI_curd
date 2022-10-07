@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import { useState } from 'react';
+import User from './User';
+// import './App.css';
+/*******************Start Counter******************************** */
+// import Counti from './counti';
+/*************************End Counter********************************************* */
+
+
 
 function App() {
+  /*******************Start Counter******************************** */
+  // const [count, setCount]=useState(0);
+  // const inhandler=()=>{
+  //   setCount(count+1);
+  // }
+  // const Dehandler=()=>{
+  //   setCount(count-1);
+  // }
+/*************************End Counter********************************************* */
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* /****************** Start counter **********************/ }
+      {/* {count}
+     <Counti  count={count} handler={inhandler}/>
+     {count%2==0 ? (<button onClick={Dehandler}>Decrement</button>):('')} */}
+     {/* /**********End Counter********************************************** */ }
+
+<User />
+    
     </div>
   );
 }
