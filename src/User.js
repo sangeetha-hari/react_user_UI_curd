@@ -15,7 +15,7 @@ export default function User() {
   let navigate = useNavigate();
   return (
     <div>
-      /*****************BUTTON FOR CHOOSING OPTION******************************************* */
+      {/* /*****************BUTTON FOR CHOOSING OPTION******************************************* */}
       <ButtonGroup variant="contained" aria-label="outlined primary button group">
       <Button  onClick={() => navigate("/adduser")}>Add user</Button>
       <Button  onClick={() => navigate("/displayuser")}>Display User</Button>
