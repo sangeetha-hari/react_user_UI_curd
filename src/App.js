@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 // import { useState } from 'react';
 import User from './User';
-// import './App.css';
+ import './App.css';
 /*******************Start Counter******************************** */
 // import Counti from './counti';
 /*************************End Counter********************************************* */
